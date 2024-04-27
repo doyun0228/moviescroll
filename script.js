@@ -4,11 +4,11 @@ const div = document.createElement("div");
 const flex = document.createElement("div");
 const leftButton = document.createElement("img");
 const rightButton = document.createElement("img");
-rightButton.src = "/back.png";
+rightButton.src = "./back.png";
 rightButton.className = "size2";
 rightButton.classList.add("reverse");
 let currentTranslateX = 0;
-leftButton.src = "/back.png";
+leftButton.src = "./back.png";
 leftButton.className = "size";
 div.style.width = "80%";
 div.style.overflowX = "hidden";
@@ -23,7 +23,7 @@ document.body.appendChild(BiggestDiv); // <body><div class="flex"></div></body>
 
 function createBackButton() {
   const backbutton = document.createElement("img");
-  backbutton.src = "/back.png";
+  backbutton.src = "./back.png";
   backbutton.className = "backbutton";
   return backbutton;
 }
